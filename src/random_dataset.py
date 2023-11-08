@@ -34,7 +34,7 @@ plt.title('Review Scores by App Name')
 plt.legend(title='Review Score', labels=['-1', '1'])
 
 # Step 6: Save the selected data to a new CSV file
-selected_data.to_csv('selected_data.csv', index=False)
+selected_data.to_csv('dataset.csv', index=False)
 
 # Show the plot
 plt.show()
